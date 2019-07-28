@@ -640,17 +640,13 @@ babel-types@^6.19.0, babel-types@^6.24.1, babel-types@^6.26.0:
     lodash "^4.17.4"
     to-fast-properties "^1.0.3"
 
-babel-watch@^7.0.0:
-  version "7.0.0"
-  resolved "https://registry.yarnpkg.com/babel-watch/-/babel-watch-7.0.0.tgz#2c7cac04a1f6bdaf3b9fc6267abd6b8001f88b89"
-  integrity sha512-DCK5pXNbDYr1c90wk1lP98bOxb+9BkvVieeYDTQPbcaEP9br6jJcVeJhr+zcQxry0yA45lPXWP+NS88/YVXZag==
+babel-watch@2.0.7:
+  version "2.0.7"
+  resolved "https://registry.yarnpkg.com/babel-watch/-/babel-watch-2.0.7.tgz#584ad2af245ba96f88721213a9563631ba8fae48"
+  integrity sha512-pBVjnK1A3xJZHOrgVCbfd727tIPQrvzxFqGL1hgUClNd7LdQpTlO73SM1RJ9I4ibgiljbUE/3IcIHXHBJSL5+w==
   dependencies:
     chokidar "^1.4.3"
     commander "^2.9.0"
-    lodash.debounce "^4.0.8"
-    lodash.isarray "^4.0.0"
-    lodash.isregexp "^4.0.1"
-    lodash.isstring "^4.0.1"
     source-map-support "^0.4.0"
 
 babylon@^6.18.0:
@@ -1579,26 +1575,6 @@ kind-of@^6.0.0, kind-of@^6.0.2:
   version "6.0.2"
   resolved "https://registry.yarnpkg.com/kind-of/-/kind-of-6.0.2.tgz#01146b36a6218e64e58f3a8d66de5d7fc6f6d051"
   integrity sha512-s5kLOcnH0XqDO+FvuaLX8DDjZ18CGFk7VygH40QoKPUQhW4e2rvM0rwUq0t8IQDOwYSeLK01U90OjzBTme2QqA==
-
-lodash.debounce@^4.0.8:
-  version "4.0.8"
-  resolved "https://registry.yarnpkg.com/lodash.debounce/-/lodash.debounce-4.0.8.tgz#82d79bff30a67c4005ffd5e2515300ad9ca4d7af"
-  integrity sha1-gteb/zCmfEAF/9XiUVMArZyk168=
-
-lodash.isarray@^4.0.0:
-  version "4.0.0"
-  resolved "https://registry.yarnpkg.com/lodash.isarray/-/lodash.isarray-4.0.0.tgz#2aca496b28c4ca6d726715313590c02e6ea34403"
-  integrity sha1-KspJayjEym1yZxUxNZDALm6jRAM=
-
-lodash.isregexp@^4.0.1:
-  version "4.0.1"
-  resolved "https://registry.yarnpkg.com/lodash.isregexp/-/lodash.isregexp-4.0.1.tgz#e13e647b30cd559752a04cd912086faf7da1c30b"
-  integrity sha1-4T5kezDNVZdSoEzZEghvr32hwws=
-
-lodash.isstring@^4.0.1:
-  version "4.0.1"
-  resolved "https://registry.yarnpkg.com/lodash.isstring/-/lodash.isstring-4.0.1.tgz#d527dfb5456eca7cc9bb95d5daeaf88ba54a5451"
-  integrity sha1-1SfftUVuynzJu5XV2ur4i6VKVFE=
 
 lodash@^4.17.4:
   version "4.17.15"

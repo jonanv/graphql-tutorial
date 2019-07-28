@@ -7,6 +7,8 @@
   "author": "Giovanni Vargas <jonan-vargas23@hotmail.com>",
   "license": "ISC",
   "dependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
     "express": "^4.17.1"
   }
 }

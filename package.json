@@ -5,5 +5,8 @@
   "main": "index.js",
   "repository": "https://github.com/jonanv/graphql-tutorial.git",
   "author": "Giovanni Vargas <jonan-vargas23@hotmail.com>",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
 }

@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "",
-    "build": "babel-node server.js"
+    "build": "babel-watch server.js"
   },
   "repository": "https://github.com/jonanv/graphql-tutorial.git",
   "author": "Giovanni Vargas <jonan-vargas23@hotmail.com>",
@@ -13,6 +13,7 @@
   "dependencies": {
     "babel-cli": "^6.26.0",
     "babel-preset-env": "^1.7.0",
+    "babel-watch": "^7.0.0",
     "express": "^4.17.1"
   }
 }

@@ -1,4 +1,3 @@
-// Provide resolver functions for your schema fields
 const authors = [{
     name: 'JK Rowling',
     age: 50,
@@ -10,20 +9,13 @@ const authors = [{
     books: ['GOT - Song of Ice and Fire', 'GOT - A Dance with Dragons']
 }];
 
+// Provide resolver functions for your schema fields
 const resolvers = {
     Query: {
-        authors: () => {
+        author: () => {
             return authors
         }
     }
 }
 
-
-/*export default {
-    Query: {
-        holaMundo: (parents, args, context, info) => 'Hello world!',
-    },
-    Mutation: {
-        createUser: (parents, args, { models }) => models.User.create(args)
-    }
-};*/
+export default resolvers;

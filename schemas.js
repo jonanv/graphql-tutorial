@@ -3,7 +3,7 @@ export default `
     type Author {
         age: Int
         name: String
-        Books: [String]
+        books: [String]
     }
     type Query {
         author: [Author]

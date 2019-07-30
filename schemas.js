@@ -4,7 +4,6 @@ export default `
         age: Int
         name: String
         Books: [String]
-        gender: String
     }
     type Query {
         author: [Author]

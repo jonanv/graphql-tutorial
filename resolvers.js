@@ -5,7 +5,7 @@ const authors = [{
 },
 {
     name: 'George RR Martin',
-    age: 70,
+    age: 60,
     books: ['GOT - Song of Ice and Fire', 'GOT - A Dance with Dragons']
 },
 {
@@ -21,7 +21,6 @@ const resolvers = {
             return authors
         },
         author: (root, {age}) => {
-            const age = args.age;
             return authors.find(author => author.age === age);
         }
     }

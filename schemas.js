@@ -6,6 +6,7 @@ export default `
         books: [String]
     }
     type Query {
-        author: [Author]
+        authors: [Author]
+        author(age: Int): Author
     }
 `;

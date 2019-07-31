@@ -2,7 +2,7 @@ const authors = [{
     name: 'JK Rowling',
     age: 50,
     books: ['Harry Potter and the Gobelt of Fire', 'Harry Potter and Prisioner of Azkaban']
-}, 
+},
 {
     name: 'George RR Martin',
     age: 70,
@@ -17,8 +17,12 @@ const authors = [{
 // Provide resolver functions for your schema fields
 const resolvers = {
     Query: {
-        author: () => {
+        authors: () => {
             return authors
+        },
+        author: (root, args) => {
+            const age = args.age;
+            return authors.find(author => author.age === age);
         }
     }
 }

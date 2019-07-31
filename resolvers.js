@@ -20,7 +20,7 @@ const resolvers = {
         authors: () => {
             return authors
         },
-        author: (root, args) => {
+        author: (root, {age}) => {
             const age = args.age;
             return authors.find(author => author.age === age);
         }

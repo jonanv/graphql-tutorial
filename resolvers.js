@@ -7,6 +7,11 @@ const authors = [{
     name: 'George RR Martin',
     age: 70,
     books: ['GOT - Song of Ice and Fire', 'GOT - A Dance with Dragons']
+},
+{
+    name: 'Stephen King',
+    age: 60,
+    books: ['The Green Mile', 'Carrie']
 }];
 
 // Provide resolver functions for your schema fields

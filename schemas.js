@@ -11,6 +11,6 @@ export default `
         author(id: String): Author
     }
     type Mutation {
-        addAuthor(age: Int, name: String, books: [String]): Author
+        addAuthor(age: Int!, name: String!, books: [String]!): Author
     }
 `;

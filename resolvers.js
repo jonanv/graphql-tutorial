@@ -33,7 +33,8 @@ const resolvers = {
     Mutation: {
         addAuthor: (root, {age, name, books}) => {
             const author = new authorModel({age: age, name: name, books: books});
-            return author.save();
+            author.save();
+            return author;
         }
     }
 }

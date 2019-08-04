@@ -10,4 +10,7 @@ export default `
         authors: [Author]
         author(id: String): Author
     }
+    type Mutation {
+        addAuthor(age: Int, name: String, books: [String]): Author
+    }
 `;

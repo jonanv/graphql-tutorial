@@ -1,4 +1,4 @@
-const authors = [{
+/*const authors = [{
     id: 21,
     name: 'JK Rowling',
     age: 50,
@@ -15,16 +15,16 @@ const authors = [{
     name: 'Stephen King',
     age: 60,
     books: ['The Green Mile', 'Carrie']
-}];
+}];*/
 
 // Provide resolver functions for your schema fields
 const resolvers = {
     Query: {
         authors: () => {
-            return authors
+            //return authors
         },
         author: (root, {id}) => {
-            return authors.find(author => author.id === id);
+            //return authors.find(author => author.id === id);
         }
     }
 }

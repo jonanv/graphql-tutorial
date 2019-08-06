@@ -24,6 +24,7 @@ import authorModel from './models/authors';
 const resolvers = {
     Query: {
         authors: () => {
+            return authorModel.find({});
             //return authors
         },
         author: (root, {id}) => {

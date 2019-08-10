@@ -1,5 +1,5 @@
 // Construct a schema, using GraphQL schema language
-export default `
+const typeDefs = `
     type Author {
         id: String
         age: Int
@@ -14,3 +14,5 @@ export default `
         addAuthor(age: Int!, name: String!, books: [String]!): Author
     }
 `;
+
+export default typeDefs;

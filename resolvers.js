@@ -23,11 +23,11 @@ import authorModel from './models/authors';
 const resolvers = {
     Query: {
         authors: () => {
-            return authorModel.find({});
             //return authors
+            return authorModel.find({});
         },
         author: (root, {id}) => {
-            //return authors.find(author => author.id === id);
+            return authors.find(author => author.id === id);
         }
     },
     Mutation: {

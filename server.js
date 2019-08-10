@@ -17,4 +17,7 @@ mongoose.connect('mongodb://localhost:27017/graphql-tutorial', { useNewUrlParser
         app.listen(PORT, () => {
             console.log(`🚀 Server ready at http://localhost:${PORT}${server.graphqlPath}`)
         });
+    })
+    .catch((error) => {
+        console.log('No se ha conectado a MondoDB', error);
     });

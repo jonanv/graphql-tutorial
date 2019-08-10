@@ -1,4 +1,3 @@
-import mongoose from 'mongoose';
 import authorModel from './models/authors';
 
 /*const authors = [{

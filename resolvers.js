@@ -22,26 +22,26 @@ import authorModel from './models/authors';
 // Provide resolver functions for your schema fields
 const resolvers = {
     Query: {
-        authors: (root, {age}) => {
+        authors: (root, { age }) => {
             //return authors
-            return authorModel.find({age: age});
+            return authorModel.find({ age: age });
         },
-        author: (root, {id}) => {
+        author: (root, { id }) => {
             //return authors.find(author => author.id === id);
-            return authorModel.findOne({id: id});
+            return authorModel.findOne({ id: id });
         }
     },
     Mutation: {
-        addAuthor: (root, {age, name, books}) => {
-            const author = new authorModel({age: age, name: name, books: books});
+        addAuthor: (root, { age, name, books }) => {
+            const author = new authorModel({ age: age, name: name, books: books });
             return author.save();
         },
-        deleteAuthor: (root, {id}) => {
-            return authorModel.findOneAndRemove({id: id});
+        deleteAuthor: (root, { id }) => {
+            return authorModel.findOneAndRemove({ id: id });
         },
-        updateAuthor: (root, {id, name}) => {
-            return authorModel.findOneAndUpdate({id: id, name: name});
-        } 
+        updateAuthor: (root, { id, name }) => {
+            return authorModel.findOneAndUpdate({ id: id, name: name });
+        }
     }
 }
 

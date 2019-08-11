@@ -22,12 +22,13 @@ import authorModel from './models/authors';
 // Provide resolver functions for your schema fields
 const resolvers = {
     Query: {
-        authors: () => {
+        authors: (root, {age}) => {
             //return authors
-            return authorModel.find({});
+            return authorModel.find({age: age});
         },
         author: (root, {id}) => {
             //return authors.find(author => author.id === id);
+            return authorModel.findOne({id: id});
         }
     },
     Mutation: {

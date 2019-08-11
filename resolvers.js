@@ -27,14 +27,16 @@ const resolvers = {
             return authorModel.find({});
         },
         author: (root, {id}) => {
-            return authors.find(author => author.id === id);
+            //return authors.find(author => author.id === id);
         }
     },
     Mutation: {
         addAuthor: (root, {age, name, books}) => {
             const author = new authorModel({age: age, name: name, books: books});
-            author.save();
-            return author;
+            return author.save();
+        },
+        deleteAuthor: (root, {id}) => {
+            return authorModel.remove({id: id});
         }
     }
 }

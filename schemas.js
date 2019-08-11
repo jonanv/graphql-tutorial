@@ -12,6 +12,7 @@ const typeDefs = `
     }
     type Mutation {
         addAuthor(age: Int!, name: String!, books: [String]!): Author
+        deleteAuthor(id: String!): Author
     }
 `;
 

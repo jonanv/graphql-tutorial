@@ -5,7 +5,11 @@ Tutorial of GraphQL
 GraphQL, Apollo-server-express, MongoDB
 
 # Start app
+```
 yarn run build
+```
 
 # Start MongoDB
+```
 mongod
+```

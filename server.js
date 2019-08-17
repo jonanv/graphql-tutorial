@@ -21,3 +21,4 @@ mongoose.connect('mongodb://localhost:27017/graphql-tutorial', { useNewUrlParser
     .catch((error) => {
         console.log('No se ha conectado a MondoDB', error);
     });
+    

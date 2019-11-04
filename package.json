@@ -1,5 +1,5 @@
 {
-  "name": "graphql-tutorial",
+  "name": "tutorial-graphql",
   "version": "1.0.0",
   "description": "Tutorial of GraphQL",
   "main": "index.js",
@@ -7,7 +7,7 @@
     "test": "",
     "build": "babel-watch server.js"
   },
-  "repository": "https://github.com/jonanv/graphql-tutorial.git",
+  "repository": "https://github.com/jonanv/tutorial-graphql.git",
   "author": "Giovanni Vargas <jonan-vargas23@hotmail.com>",
   "license": "ISC",
   "dependencies": {

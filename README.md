@@ -11,18 +11,32 @@
     </a>
 </p>
 
-# graphql-tutorial
+# tutorial-graphql
 ## apollo-server-express 2.0
 Tutorial of GraphQL
 
 GraphQL, Apollo-server-express, MongoDB
+
+# Install dependences
+```
+yarn install
+```
+o
+```
+npm install
+```
+
+# Start MongoDB
+database name ```graphql-tutorial```
+
+```
+mongod
+```
 
 # Start app
 ```
 yarn run build
 ```
 
-# Start MongoDB
-```
-mongod
-```
+# Site
+http://localhost:4000/graphql

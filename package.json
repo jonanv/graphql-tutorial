@@ -11,7 +11,7 @@
   "author": "Giovanni Vargas <jonan-vargas23@hotmail.com>",
   "license": "ISC",
   "dependencies": {
-    "apollo-server-express": "^2.7.2",
+    "apollo-server-express": "^2.14.2",
     "babel-cli": "^6.26.0",
     "babel-preset-env": "^1.7.0",
     "babel-watch": "2.0.7",
